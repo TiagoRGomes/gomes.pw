@@ -1,0 +1,339 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.btn {
+  
+}
+
+/* HEADER */
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #181a1b;
+	padding: 0px 0;	
+    z-index: 10;
+}
+
+.header img {
+	margin: 8px;	
+}
+
+.header_menu {
+	text-align: right;
+	margin-top: 25px;
+}
+
+.header_menu ul li{
+	text-align: right;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.header_menu ul li a {
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	line-height: 20px;
+	padding: 10px 10px;
+    border: solid 1px #181a1b;
+}
+
+.header_menu ul li a:hover {
+	
+	text-decoration: none;
+	border: solid 1px #e74c3c;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+
+}
+
+.introduction {
+	width: 100%;
+	height: 600px;
+	background: url("../img/introduction-gomes.jpg") no-repeat center;
+	background-size: cover; 
+	margin-top: 65px;
+	
+}
+
+.introduction h4 {
+	font-size: 24px;
+	color: #fff;
+	line-height: 30px;
+	text-align: right;
+	margin-top: 500px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+}
+
+/* ABOUT */
+
+.about h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 40px;
+}
+
+.about h2:after, .about h2:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #000;
+    margin: 10px auto;
+}
+
+
+.about .about_photo {
+  background: #2c3e50;
+  text-align: center;
+  padding: 35px;
+  width: 300px;
+  height: 300px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+	border-radius: 1%;
+	
+}
+
+.about .about_name {
+  background: #2980b9;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+  width: 300px;
+  height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+	border-radius: 1%;
+}
+
+.about .more {
+  background: #2980b9;
+  text-align: left;
+  padding: 15px 0 0 25px;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+  
+}
+
+.about .more_info {
+  background: #2c3e50;
+  text-align: left;
+  margin-top: 20px;
+  padding: 50px 50px 50px 70px;
+  font-size: 14px;
+  width: 100%;
+  height: 300px;
+  color: #fff;
+  line-height: 20px;  
+  
+}
+
+.about .more_info ul li { 
+  margin-bottom: 15px;
+  list-style-type: square;
+  
+}
+
+.about .skills {
+  margin-top: 40px;
+  background-color:  #3498db;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  border: 3px solid #ecf0f1;
+  margin-right: 5.5px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+	text-transform: uppercase;
+	font-style: italic; 
+	border-radius: 5%;
+}
+
+.about .skills:last-child { 
+  margin-right: 0px;
+}
+
+.about ul li i{
+  font-size: 60px;
+  color: #fff;
+  line-height: 60px;
+  padding: 10px 0px 40px 10px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+  
+}
+
+.about ul li p{
+  font-size: 14px;
+  color: #fff;
+  padding: 7px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background: #2c3e50;
+  margin-top: -20px; 
+}
+.about ul {
+  
+  margin-bottom: 40px;
+}
+
+/* SERVICES */
+
+.services {
+  
+  background: #181a1b;
+}
+.services h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 40px;
+    color: #fff;
+}
+
+.services h2:after, .services h2:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #fff;
+    margin: 10px auto;
+  
+}
+
+.services_photo {
+  
+  background: #2980b9;
+  width: 350px;
+  height: 120px;
+  border-radius: 1%;
+}
+
+.services_desc {
+  margin-top: 30px;
+  background: #2c3e50;
+  width: 350px;
+  height: 150px;
+  margin-bottom: 40px;
+  border-radius: 1%;
+}
+
+.services i {
+  color: #fff;
+  font-size: 70px;
+  padding:  10px 0 0 130px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+}
+
+.services .services_photo p {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.services .services_desc p { 
+  color: #fff;
+  font-size: 14px;
+  padding: 30px 30px 30px 30px;
+}
+
+.services .btn {
+  border-radius: 0;
+  color: #fff;
+  border: 2px solid #fff; 
+  width: 200px;
+	margin-left: 80px;
+	margin-bottom: 40px;
+}
+
+.services .btn:hover {
+    border: 2px solid #e74c3c; 
+}
+
+/* PORTIFOLIO */
+
+.portifolio {
+		text-align: center;
+}
+
+.portifolio h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 40px;
+}
+
+.portifolio h2:after, .portifolio h2:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #000;
+    margin: 10px auto;
+}
+
+
+.portifolio img {
+	margin-bottom: 40px;
+	max-width: 350px;
+	border: 4px solid #2c3e50;
+}
+
+.portifolio img:hover {
+	border: 4px solid #e74c3c;
+}
+
+.portifolio .btn {
+  border-radius: 0;
+  color: #000;
+  border: 2px solid #000; 
+  width: 200px;
+	margin-bottom: 40px;
+}
+
+.portifolio .btn:hover {
+    border: 2px solid #e74c3c; 
+}
+
+/* CONTACT */
+
+.contact {
+	background: #181a1b;	
+}
+.contact h2 {
+		color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 40px;
+}
+
+.contact h2:after, .contact h2:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #fff;
+    margin: 10px auto;
+}
