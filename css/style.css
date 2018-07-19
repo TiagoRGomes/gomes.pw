@@ -42,6 +42,7 @@ body {
 	
 	text-decoration: none;
 	border: solid 1px #e74c3c;
+    transition: all .5s ease;
     -webkit-transition-duration: 0.2s;
     -moz-transition-duration: 0.2s;
     -o-transition-duration: 0.2s;
@@ -162,6 +163,7 @@ body {
 
 .about .skills:hover {
   background: #2c3e50;
+  transition: all .5s ease;
 }
 
 .about .skills:last-child { 
@@ -269,7 +271,8 @@ body {
 }
 
 .services .btn:hover {
-    border: 2px solid #e74c3c; 
+    border: 2px solid #e74c3c;
+    transition: all .5s ease;
 }
 
 /* PORTIFOLIO */
@@ -304,6 +307,7 @@ body {
 
 .portifolio img:hover {
 	border: 4px solid #e74c3c;
+    transition: all .5s ease;
 }
 
 .portifolio .btn {
@@ -315,7 +319,8 @@ body {
 }
 
 .portifolio .btn:hover {
-    border: 2px solid #e74c3c; 
+    border: 2px solid #e74c3c;
+    transition: all .5s ease;
 }
 
 /* CONTACT */
@@ -404,6 +409,7 @@ body {
 
 .contact .btn:hover { 
 	border: 2px solid #e74c3c;
+    transition: all .5s ease;
 }
 
 .contact .btn_sub {
@@ -422,6 +428,7 @@ body {
 
 .contact .btn_sub:hover { 
 	border: 2px solid #e74c3c;
+    transition: all .5s ease;
 }
 
 /* QUOTE */
@@ -488,4 +495,53 @@ footer p {
   margin: 11px 0 0 0;
   color: #fff;
   font-size: 12px;
+}
+
+/* R SLIDES */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+/* ANIMATED */
+
+body#home a#home, body#index a#home,
+body#index a#about, body#index a#services, body#index a#portifolio,body#index a#contact {
+	cursor: default;
+	
+	color: blue;
+	}
+  
+}
+.introduction h4 {
+  opacity: 0;
+  
 }
