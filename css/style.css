@@ -533,8 +533,8 @@ footer p {
 
 /* ANIMATED */
 
-body#home a#home, body#index a#home,
-body#index a#about, body#index a#services, body#index a#portifolio,body#index a#contact {
+body#home a#1, body#index a#2,
+body#index a#3, body#index a#services, body#index a#portifolio,body#index a#contact {
 	cursor: default;
 	
 	color: blue;
