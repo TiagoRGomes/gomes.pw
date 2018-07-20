@@ -8,8 +8,9 @@ body {
 	top: 0;
 	width: 100%;
 	background: #181a1b;
+    border-bottom: solid 1px #2e3033;
 	padding: 0px 0;	
-   z-index: 10;
+    z-index: 10;
 	height: 65px;
 }
 
@@ -31,19 +32,20 @@ body {
 
 .header_menu ul li a {
 	color: #fff;
+  text-decoration: none;
 	font-size: 11px;
 	font-weight: bold;
 	letter-spacing: .1em;
 	text-transform: uppercase;
 	line-height: 20px;
 	padding: 10px 10px;
-  border: solid 1px #181a1b;
+   border-bottom: solid 1px #181a1b;
 }
 
-.header_menu ul li a:hover {
+.header_menu ul li:hover {
 	
 	text-decoration: none;
-	border: solid 1px #e74c3c;
+	border-bottom: solid 1px #e74c3c;
     transition: all .5s ease;
     -webkit-transition-duration: 0.2s;
     -moz-transition-duration: 0.2s;
@@ -77,7 +79,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 28px;
-    margin: 40px;
+    margin: 80px 40px 40px 40px;
 }
 
 .about h2:after, .about h2:before {
@@ -91,7 +93,14 @@ body {
 
 
 .about .about_photo {
-	border-radius: 1%;
+
+    background: #2c3e50;
+    text-align: center;
+    padding: 35px;
+    width: 300px;
+    height: 300px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+    border-radius: 1%;
 	
 }
 
@@ -193,15 +202,15 @@ body {
 /* SERVICES */
 
 .services {
-  
   background: #181a1b;
+  background: url("../img/bg.png");
 }
 .services h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 28px;
-    margin: 40px;
+    margin: 80px 40px 40px 40px;
     color: #fff;
 }
 
@@ -282,7 +291,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 28px;
-    margin: 40px;
+    margin: 80px 40px 40px 40px;
 }
 
 .portifolio h2:after, .portifolio h2:before {
@@ -322,12 +331,12 @@ body {
 /* CONTACT */
 
 .contact {
-	background: #181a1b;	
+	background: url("../img/bg.png");	
 }
 
 .form_border {
   padding: 10px 20px 1px 20px;
-  background: rgba(44,62,82,1);
+  background: rgba(0,0,0,0.4);
   margin-bottom: 20px;
   border-radius: 1%;
   
@@ -349,7 +358,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 28px;
-    margin: 40px 40px 80px 40px;
+   margin: 80px 40px 80px 40px;
 }
 
 .contact h2:after, .contact h2:before {
@@ -481,7 +490,7 @@ body {
 }
 
 footer {
-  background: #181a1b;
+  background: url("../img/bg.png");
   height: 40px;
   text-align: center;
   
@@ -528,15 +537,36 @@ footer p {
   }
 
 /* ANIMATED */
-.introduction h4 {
-  opacity: 0;
-  
-}
+
 
 .current {
-  border-bottom: solid #fff 1px;
+  border-bottom: solid 1px #fff;
 }
 
+.animation-home{
+  opacity: 0;
+  animation-delay: 1s;
+    
+}
+
+.animation-about{
+  opacity: 0;
+    
+}
+.animation-service{
+  opacity: 0;
+    
+}
+.animation-portifolio{
+  opacity: 0;
+  animation-delay: 0.5s;
+    
+}
+
+.animation-contact{ 
+   opacity: 0;
+  animation-delay: 0.3s;
+}
 
 
 
