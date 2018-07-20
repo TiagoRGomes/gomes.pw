@@ -9,7 +9,8 @@ body {
 	width: 100%;
 	background: #181a1b;
 	padding: 0px 0;	
-    z-index: 10;
+   z-index: 10;
+	height: 65px;
 }
 
 .header img {
@@ -18,24 +19,25 @@ body {
 
 .header_menu {
 	text-align: right;
-	margin-top: 25px;
+	margin-top: 12px;
 }
 
 .header_menu ul li{
 	text-align: right;
 	display: inline-block;
 	margin-left: 30px;
+	padding: 10px 10px 10px 10px;
 }
 
 .header_menu ul li a {
 	color: #fff;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: bold;
 	letter-spacing: .1em;
 	text-transform: uppercase;
 	line-height: 20px;
 	padding: 10px 10px;
-    border: solid 1px #181a1b;
+  border: solid 1px #181a1b;
 }
 
 .header_menu ul li a:hover {
@@ -89,12 +91,6 @@ body {
 
 
 .about .about_photo {
-  background: #2c3e50;
-  text-align: center;
-  padding: 35px;
-  width: 300px;
-  height: 300px;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
 	border-radius: 1%;
 	
 }
@@ -532,16 +528,15 @@ footer p {
   }
 
 /* ANIMATED */
-
-body#home a#1, body#index a#2,
-body#index a#3, body#index a#services, body#index a#portifolio,body#index a#contact {
-	cursor: default;
-	
-	color: blue;
-	}
-  
-}
 .introduction h4 {
   opacity: 0;
   
 }
+
+.current {
+  border-bottom: solid #fff 1px;
+}
+
+
+
+
